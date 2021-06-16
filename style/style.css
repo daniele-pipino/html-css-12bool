@@ -8,12 +8,23 @@
     border: 1px dashed black;
 }
 
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ------------- */
 [class*='col']{
     background-color: rgb(18, 18, 138);
     height: 150px;
     text-align: center;
     border: 1px solid black;
     padding: 20px 0;
+}
+
+.name{
+    justify-content: center;
+    align-items: center;
 }
 
 .nested{
